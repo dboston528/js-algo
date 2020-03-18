@@ -5,4 +5,4 @@ Given an array integers, return indicies of the two numbers such that they add u
 
 Assume that each input would have exactly one solution, and may not use the same element twice. (leetcode)
 
-The way 
+One way to solve, is to do a nested for loop. 
