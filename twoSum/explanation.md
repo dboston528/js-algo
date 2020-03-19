@@ -6,7 +6,7 @@ Given an array integers, return indicies of the two numbers such that they add u
 
 Assume that each input would have exactly one solution, and may not use the same element twice. (leetcode)
 
-One way to solve, is to write a nested for loop. This is the least optimal, but normally the first thing that comes to mind. Basically to my understanding we want to looping through the the array. Store each element in a variable of some sort. While we are looping we want loop through the
+One way to solve, is to write a nested for loop. This is the least optimal, but normally the first thing that comes to mind. Basically to my understanding we want to iterate through the the array and while itera. While iterating  and in each cycle, store each element in a variable of some sort. While we are looping we want loop through th
 
 ```javascript
 function twoNumberSum(array, targetSum) {
@@ -19,6 +19,7 @@ for(let i = 0; i <array.length - 1; i++) {
    const secondElement = array[j];
    if (firstElement + secondElement === targetSum) {
     return[firstElement, sencondElement].sort((a,b)=> a-b);
+    }
    }
    } 
   
