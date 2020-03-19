@@ -4,7 +4,14 @@
 ## Description
 Given an array integers, return indicies of the two numbers such that they add up to a specific target. Assume that each input would have exactly one solution, and may not use the same element twice. (leetcode)
 
-One way to solve, is to write a nested for loop. This is the least optimal, but normally the first thing that comes to mind. Basically to my understanding we want to iterate through the the array and while itera. While iterating  and in each cycle, store each element in a variable of some sort. While we are looping we want loop through th
+One way to solve, is to write a nested for loop. This is the least optimal, but normally the first thing that comes to mind. To my understanding we want to iterate through the the array and while iterating we perform another iteration. I know that souds a bit confusing but i'll try my best to explain.
+
+
+Here is empty function that takes in two parameters.
+
+``javascript
+function twoNumberSum(array, targetSum) {}
+```
 
 ```javascript
 function twoNumberSum(array, targetSum) {
