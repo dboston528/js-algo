@@ -8,7 +8,7 @@ Assume that each input would have exactly one solution, and may not use the same
 
 One way to solve, is to write a nested for loop. This is the least optimal, but normally the first thing that comes to mind. Basically to my understanding we want to looping through the the array. Store each element in a variable of some sort. While we are looping we want loop through the
 
-```
+```javascript
 function twoNumberSum(array, targetSum) {
 
 // declare a for loop that runs as long as i is less that than the array length - 1 
