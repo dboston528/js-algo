@@ -7,7 +7,7 @@ Given an array integers, return indicies of the two numbers such that they add u
 One way to solve, is to write a nested for loop. This is the least optimal, but normally the first thing that comes to mind. To my understanding we want to iterate through the the array and while iterating we perform another iteration. I know that souds a bit confusing but i'll try my best to explain.
 
 
-Here is empty function that takes in two parameters.
+Here is an empty function that takes in two parameters.
 
 ```javascript
 function twoNumberSum(array, targetSum) {}
