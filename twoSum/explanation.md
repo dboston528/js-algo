@@ -13,6 +13,8 @@ Here is an empty function that takes in two parameters.
 function twoNumberSum(array, targetSum) {}
 ```
 
+
+Here is the complete solution.
 ```javascript
 function twoNumberSum(array, targetSum) {
 
