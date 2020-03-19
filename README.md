@@ -4,9 +4,9 @@ The plan here is to provide solutions and clear explantions to many differnt alg
 
 ## Algorithims
 
-Two Number Sum
-Linked List Construction
-Depth-first Search
-Nth Fibonacci
-Produc Sum
+[Two Number Sum]()
+[Linked List Construction]()
+[Depth-first Search]()
+[Nth Fibonacci]()
+[Product Sum]()
 
