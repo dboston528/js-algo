@@ -9,8 +9,9 @@ One way to solve, is to write a nested for loop. This is the least optimal, but 
 
 Here is empty function that takes in two parameters.
 
-``javascript
-function twoNumberSum(array, targetSum) {}```
+```javascript
+function twoNumberSum(array, targetSum) {}
+```
 
 ```javascript
 function twoNumberSum(array, targetSum) {
