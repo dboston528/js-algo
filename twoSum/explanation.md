@@ -6,4 +6,22 @@ Given an array integers, return indicies of the two numbers such that they add u
 
 Assume that each input would have exactly one solution, and may not use the same element twice. (leetcode)
 
-One way to solve, is to do a nested for loop. This is the least optimal, but normally the first thing that comes to mind. Basically to my understanding we are looping through the
+One way to solve, is to write a nested for loop. This is the least optimal, but normally the first thing that comes to mind. Basically to my understanding we want to looping through the the array. Store each element in a variable of some sort. While we are looping we want loop through the
+
+```
+function twoNumberSum(array, targetSum) {
+
+// declare a for loop that runs as long as i is less that than the array length - 1 
+for(let i = 0; i <array.length - 1; i++) {
+  const firstElement = array[i];
+  // within the loop declare another loop that starts exactly at the next element and runs the actuall length of the array  
+   for(let j = i +1; j < array.length; j++){
+   const secondElement = array[j];
+   if (firstElement + secondElement === targetSum) {
+    return[firstElement, sencondElement].sort((a,b)=> a-b);
+   }
+   } 
+  
+
+}
+```
