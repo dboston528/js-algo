@@ -2,7 +2,7 @@
 class Node {
     constructor(){
         this.value = value;
-    d    this.prev= null;
+        this.prev= null;
         this.next = null;
     }
 }
