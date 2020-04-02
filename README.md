@@ -6,7 +6,7 @@ The plan here is to provide solutions and clear explantions to many differnt alg
 
 [Two Number Sum](https://github.com/dboston528/js-algo/tree/master/twoSum)
 
-[Linked List Construction]()
+[Linked List]()
 
 [Depth-first Search]()
 
