@@ -3,6 +3,7 @@ https://github.com/dboston528/js-algo.git
 */
 
 function twoSum(array, target) {
+  //traverse through the entire  array
   for (let i = 0; i < array.length - 1; i++) {
     const firstNum = array[i];
     for (let j = i + 1; j < array.length; j++) {
